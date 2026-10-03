@@ -47,7 +47,7 @@ const Login = () => {
       localStorage.setItem("token", result.token);
       setIsLoading(false);
       setForm({ name: "", password: "" });
-      toast.success("Welcome to Gestor");
+      toast.success("Welcome to DevPathTracker");
       // Redirect to dashboard after successful login
       router.push("/dashboard");
     } catch (error) {
@@ -110,7 +110,7 @@ const Login = () => {
             </svg>
           </div>
           <span className="text-[16px] font-semibold text-slate-900 tracking-tight">
-            gestor
+            DevPathTracker
           </span>
         </div>
 
@@ -171,7 +171,7 @@ const Login = () => {
               </svg>
             </div>
             <span className="text-[15px] font-semibold text-slate-900">
-              gestor
+              DevPathTracker
             </span>
           </div>
 
@@ -248,7 +248,7 @@ const Login = () => {
 
           {/* Footer link */}
           <p className="text-center text-[13px] text-slate-400 font-light mt-6">
-            New to Gestor?{" "}
+            New to DevPathTracker?{" "}
             <Link
               href="/signup"
               className="text-blue-600 font-medium hover:text-blue-700 transition-colors"

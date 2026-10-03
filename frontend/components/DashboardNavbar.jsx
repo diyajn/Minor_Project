@@ -104,7 +104,7 @@ export default function DashboardNavbar({ onSearchOpen, onMobileToggleSidebar, i
             </svg>
           </div>
           <span className="text-[14px] font-semibold text-slate-900 tracking-tight group-hover:text-blue-600 transition-colors hidden md:inline">
-            gestor
+            DevPathTracker
           </span>
         </Link>
       </div>
@@ -115,8 +115,8 @@ export default function DashboardNavbar({ onSearchOpen, onMobileToggleSidebar, i
         className="flex items-center gap-3 px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 hover:bg-slate-100 hover:border-slate-300 transition-all group flex-1 max-w-md mx-auto"
       >
         <svg
-          width="18"
-          height="18"
+          width="10"
+          height="10"
           viewBox="0 0 20 20"
           fill="none"
           className="text-slate-400 group-hover:text-slate-500"

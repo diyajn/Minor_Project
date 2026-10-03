@@ -46,7 +46,7 @@ const Signup = () => {
       const result = await response.json();
       setIsLoading(false);
       setForm({ name: "", password: "" });
-      toast.success("Welcome to Gestor — please log in, " + result.username);
+      toast.success("Welcome to DevPathTracker — please log in, " + result.username);
       router.replace("/login");
     } catch (error) {
       setIsLoading(false);
@@ -97,7 +97,7 @@ const Signup = () => {
               </svg>
             </div>
             <span className="text-[15px] font-semibold text-slate-900">
-              gestor
+              DevPathTracker
             </span>
           </div>
 
@@ -253,7 +253,7 @@ const Signup = () => {
             </svg>
           </div>
           <span className="text-[16px] font-semibold text-slate-900 tracking-tight">
-            gestor
+            DevPathTracker
           </span>
         </div>
 

@@ -45,7 +45,7 @@ export default function Navbar() {
             </svg>
           </div>
           <span className="text-[15px] font-semibold text-slate-900 tracking-tight">
-            gestor
+            DevPathTracker
           </span>
         </Link>
 
