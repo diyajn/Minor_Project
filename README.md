@@ -1,4 +1,4 @@
-# DevPathTracker / Gestor — combined project
+# Minor Project
 
     backend/   Spring Boot 4 + MySQL API   -> deploy on Railway (uses backend/Dockerfile)
     frontend/  Next.js 16 (static export)  -> deploy on Netlify  (uses frontend/netlify.toml)
